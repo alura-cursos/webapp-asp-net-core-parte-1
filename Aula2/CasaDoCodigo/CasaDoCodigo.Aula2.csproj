@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\logo.png" />
+    <Content Include="wwwroot\images\produtos\large_1.jpg" />
+    <Content Include="wwwroot\images\produtos\large_2.jpg" />
+    <Content Include="wwwroot\images\produtos\large_3.jpg" />
+    <Content Include="wwwroot\images\produtos\large_4.jpg" />
+    <Content Include="wwwroot\images\produtos\large_5.jpg" />
+    <Content Include="wwwroot\images\produtos\large_6.jpg" />
+    <Content Include="wwwroot\images\produtos\large_7.jpg" />
+    <Content Include="wwwroot\images\produtos\large_8.jpg" />
+    <Content Include="wwwroot\images\produtos\large_9.jpg" />
+    <Content Include="wwwroot\images\produtos\small_1.jpg" />
+    <Content Include="wwwroot\images\produtos\small_2.jpg" />
+    <Content Include="wwwroot\images\produtos\small_3.jpg" />
+    <Content Include="wwwroot\images\produtos\small_4.jpg" />
+    <Content Include="wwwroot\images\produtos\small_5.jpg" />
+    <Content Include="wwwroot\images\produtos\small_6.jpg" />
+    <Content Include="wwwroot\images\produtos\small_7.jpg" />
+    <Content Include="wwwroot\images\produtos\small_8.jpg" />
+    <Content Include="wwwroot\images\produtos\small_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
