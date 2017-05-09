@@ -1,0 +1,107 @@
+﻿@{
+    ViewData["Title"] = "Carrossel";
+}
+
+
+<h3>Catálogo</h3>
+
+<div id="my-carousel" class="carousel slide" data-ride="carousel">
+   <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="~/images/produtos/large_1.jpg" />
+                        </div>
+                        <div class="panel-footer">
+                            <div>Camiseta Error 404</div>
+                            <div>R$ 59,90</div>
+                            <div class="text-center">
+                                <a asp-action="carrinho">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="~/images/produtos/large_2.jpg" />
+                        </div>
+                        <div class="panel-footer">
+                            <div>Camiseta Error 404</div>
+                            <div>R$ 59,90</div>
+                            <div class="text-center">
+                                <a asp-action="carrinho">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="~/images/produtos/large_3.jpg" />
+                        </div>
+                        <div class="panel-footer">
+                            <div>Camiseta Error 404</div>
+                            <div>R$ 59,90</div>
+                            <div class="text-center">
+                                <a asp-action="carrinho">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <img src="~/images/produtos/large_4.jpg" />
+                        </div>
+                        <div class="panel-footer">
+                            <div>Camiseta Error 404</div>
+                            <div>R$ 59,90</div>
+                            <div class="text-center">
+                                <a asp-action="carrinho">Adicionar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="item">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <img src="~/images/produtos/large_2.jpg" />
+                </div>
+                <div class="panel-footer">
+                    <div>May The Code Be With You</div>
+                    <div>R$ 59,90</div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <img src="~/images/produtos/large_3.jpg" />
+                </div>
+                <div class="panel-footer">
+                    <div>Camiseta Como Seria Bom</div>
+                    <div>R$ 59,90</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
