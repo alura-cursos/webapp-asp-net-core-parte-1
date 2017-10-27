@@ -8,7 +8,7 @@
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Content Include="wwwroot\images\logo.png" />
     <Content Include="wwwroot\images\produtos\large_1.jpg" />
     <Content Include="wwwroot\images\produtos\large_2.jpg" />
@@ -28,7 +28,7 @@
     <Content Include="wwwroot\images\produtos\small_7.jpg" />
     <Content Include="wwwroot\images\produtos\small_8.jpg" />
     <Content Include="wwwroot\images\produtos\small_9.jpg" />
-  </ItemGroup>
+  </ItemGroup>-->
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />

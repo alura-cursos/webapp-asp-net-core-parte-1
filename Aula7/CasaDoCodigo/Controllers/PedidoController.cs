@@ -31,8 +31,8 @@ namespace CasaDoCodigo.Controllers
 
         private CarrinhoViewModel GetCarrinhoViewModel()
         {
-            List<Produto> produtos =
-                this._dataService.GetProdutos();
+            //List<Produto> produtos =
+            //    this._dataService.GetProdutos();
 
             var itensCarrinho = this._dataService.GetItensPedido();
 
