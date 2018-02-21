@@ -1,0 +1,71 @@
+﻿@{ 
+    ViewData["Title"] = "Carrinho";
+}
+
+<h3>Meu Carrinho</h3>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+
+        <div class="row">
+            <div class="col-md-6">
+                Item
+            </div>
+            <div class="col-md-2">
+                Preço Unitário
+            </div>
+            <div class="col-md-2">
+                Quantidade
+            </div>
+            <div class="col-md-2">
+                <span class="pull-right">
+                    Subtotal
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="~/images/produtos/small_4.jpg" />
+            </div>
+            <div class="col-md-3">REST</div>
+            <div class="col-md-2">R$ 70,00</div>
+            <div class="col-md-2">3</div>
+            <div class="col-md-2">
+                <span class="pull-right">
+                    R$ 210,00
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-10">
+                Total: 1 item
+            </div>
+            <div class="col-md-2">
+                <span class="pull-right">
+                    R$ 210,00
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <a asp-action="resumo"
+           class="btn btn-success pull-right">
+            Finalizar Pedido
+        </a>
+
+
+        @*@Html.ActionLink("Finalizar Pedido",
+        "resumo",
+        "pedido",
+        null,
+        new { @class="btn btn-success pull-right" }
+        )*@
+    </div>
+</div>
